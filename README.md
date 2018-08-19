@@ -16,7 +16,7 @@ const Noonlight = require('@noonlight/noonlight-sdk') // require the module
 const nl = new Noonlight(access_token) // initialize
 
 // Call methods
-nl.createAlarm(NL.services(), '911 Washington Ave, St. Louis, MO, 63101')
+nl.createAlarm(nl.services(), '911 Washington Ave, St. Louis, MO, 63101')
 ```
 
 ## Reference
