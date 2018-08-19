@@ -1,5 +1,5 @@
 {
-  "name": "noonlight-sdk-node",
+  "name": "noonlight",
   "version": "1.0.0",
   "description": "A Node.js SDK wrapper around the Noonlight Platform API",
   "main": "index.js",
