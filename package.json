@@ -1,7 +1,7 @@
 {
   "name": "noonlight",
-  "version": "1.0.0",
-  "description": "A Node.js SDK wrapper around the Noonlight Platform API",
+  "version": "0.0.0",
+  "description": "A Node.js wrapper around the Noonlight API",
   "main": "index.js",
   "scripts": {
     "test": "jest"
@@ -11,17 +11,15 @@
     "url": "git+https://github.com/cod3rguy/noonlight-sdk-node.git"
   },
   "author": "Sean Mishra",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/cod3rguy/noonlight-sdk-node/issues"
   },
   "homepage": "https://github.com/cod3rguy/noonlight-sdk-node#readme",
   "dependencies": {
     "bluebird": "^3.5.1",
+    "jwt-decode": "^2.2.0",
     "request": "^2.88.0",
     "request-promise": "^4.2.2"
-  },
-  "devDependencies": {
-    "dotenv": "^6.0.0"
   }
 }
