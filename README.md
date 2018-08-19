@@ -4,7 +4,7 @@ A Node.js wrapper around the Noonlight API. This library is part of the Noonligh
 ## Installation
 
 ```
-npm i noonlight
+npm i @noonlight/noonlight-sdk
 ```
 
 ## Usage
@@ -12,7 +12,7 @@ npm i noonlight
 ```
 let access_token = 'eyJ0...' // acquire an access_token from Noonlight OAuth
 
-const Noonlight = require('noonlight) // require the module
+const Noonlight = require('@noonlight/noonlight-sdk') // require the module
 const nl = new Noonlight(access_token) // initialize
 
 // Call methods
